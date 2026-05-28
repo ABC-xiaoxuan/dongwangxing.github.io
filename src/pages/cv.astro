@@ -4,7 +4,7 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 import { AUTHOR_INITIAL } from "src/config";
 ---
 
-<BaseLayout title={AUTHOR_INITIAL + " | Resume"} sideBarActiveItemID="cv">
+<BaseLayout title={AUTHOR_INITIAL + " | 简历"} sideBarActiveItemID="cv">
     <!-- <div class="mb-5">
         <div class="text-3xl w-full font-bold">Profile</div>
     </div>
@@ -20,47 +20,47 @@ import { AUTHOR_INITIAL } from "src/config";
     </div> -->
 
     <div class="mb-5">
-        <div class="text-3xl w-full font-bold">Education</div>
+        <div class="text-3xl w-full font-bold">教育经历</div>
     </div>
 
     <div class="time-line-container grid gap-4 mb-10">
         <TimeLineElement
-            title="Your Degree"
-            subtitle="[20XX - Present] at Your University"
+            title="你的学位"
+            subtitle="[20XX - 至今] 就读于你的大学"
         />
     </div>
 
     <div class="mb-5">
-        <div class="text-3xl w-full font-bold">Experience</div>
+        <div class="text-3xl w-full font-bold">工作经历</div>
     </div>
 
     <div class="time-line-container mb-10">
         <TimeLineElement
-            title="Your Job Title at Company Name"
-            subtitle="[Start Date] - Present"
+            title="你在公司的职位"
+            subtitle="[开始日期] - 至今"
         >
-            Describe your role and accomplishments here.
+            在这里描述你的职责和成就。
         </TimeLineElement>
     </div>
 
     <div class="mb-5">
-        <div class="text-3xl w-full font-bold">Certifications</div>
+        <div class="text-3xl w-full font-bold">证书</div>
     </div>
 
     <ul class="list-disc mx-6 mb-10 grid gap-2">
         <li>
-            <a href="#" target="_blank"> Certification Name (with link)</a>
+            <a href="#" target="_blank"> 证书名称（带链接）</a>
         </li>
         <li>
-            <a href="#" target="_blank"> Certification Name (with link)</a>
+            <a href="#" target="_blank"> 证书名称（带链接）</a>
         </li>
     </ul>
 
     <div class="mb-5">
-        <div class="text-3xl w-full font-bold">Skills</div>
+        <div class="text-3xl w-full font-bold">技能</div>
     </div>
     <ul class="list-disc mx-6">
-        <li>Description of skill</li>
-        <li>Description of skill</li>
+        <li>技能描述</li>
+        <li>技能描述</li>
     </ul>
 </BaseLayout>
